@@ -5,16 +5,27 @@
             .image img {
                 width: 500px;
             }
+
+            .form {
+                min-width: 500px;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
         </style>
     </head>
     <body>
-        <div class="image">
-            <img src="https://www.hermanmiller.com/content/dam/hmicom-application/icons/logos/hm-logo-caption.svg">
-        </div>
-        <div class="form">
-            <div>Name: <input /></div>
-            <div>Location: <input /></div>
-            <div><button>Submit</button></div>
+        <div class="container">
+            <div class="image">
+                <img src="https://www.hermanmiller.com/content/dam/hmicom-application/icons/logos/hm-logo-caption.svg">
+            </div>
+            <div class="form">
+                <div>Name: <input /></div>
+                <div>Location: <input /></div>
+                <div><button>Submit</button></div>
+            </div>
         </div>
     </body>
 </html>
